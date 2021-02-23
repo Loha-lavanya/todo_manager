@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  #TODO is a Resource
+
+  # get list of todo resoure
   get "todos", to: "todos#index"
   # todos#index --> index method in TODO controller class
+
+  # get single todo resource
+  get "todos/:id", to: "todos#show"
 end
