@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  get "todos", to: "todos#index"
+  get "abc", to: "todos#index"
   # todos#index --> index method in TODO controller class
 end
